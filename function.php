@@ -24,7 +24,7 @@ for ($i=0; $i < $user_number; $i++) {
 if ($password){
     $final_password =implode('',$password);
 } else {
-    $final_password = "La tua password non è stata ancora creata";
+    $final_password = null;
 }
 
 //return + implode per creare la parola
