@@ -13,6 +13,7 @@
         $user_number = 1;
     };
 
+
     $password = [];        
         //ciclo per la creazione della password
     for ($i=0; $i < $user_number; $i++) { 
@@ -35,5 +36,5 @@
 
 
 
-//eventualmente è possibile utilizzare la funzione shuffle di php per rendere il 
-tutto più veloce//
+<!-- eventualmente è possibile utilizzare la funzione shuffle di php per rendere il 
+tutto più veloce -->
